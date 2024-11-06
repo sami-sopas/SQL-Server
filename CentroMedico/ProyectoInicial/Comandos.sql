@@ -11,3 +11,7 @@ SELECT * FROM Paciente
 SELECT * FROM Paciente WHERE idPaciente NOT IN(2,4)
 
 SELECT * FROM Paciente WHERE apellido LIKE '%rez%';
+
+--Ejecutar stored procedure
+-- EXEC (nombre SP) (Parametros)
+EXEC S_paciente 2
