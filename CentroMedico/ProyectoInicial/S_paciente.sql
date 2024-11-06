@@ -12,19 +12,22 @@ ALTER PROCEDURE [dbo].[S_paciente] (
 AS
 
 --Declarar variable (Objeto en memoria que existe durante el script)
-DECLARE @ordenamiento CHAR(1); --NULL
-DECLARE @valorOrdenamiento CHAR(1); --NULL
+--DECLARE @ordenamiento CHAR(1); --NULL
+--DECLARE @valorOrdenamiento CHAR(1); --NULL
 
 --ISNULL permite cambiar el valor de una variable en caso de que sea NULA
-SET @valorOrdenamiento = ISNULL(@ordenamiento,'A');
+--SET @valorOrdenamiento = ISNULL(@ordenamiento,'A');
 
-PRINT 'Valor'
-PRINT @valorOrdenamiento
-
-
+--PRINT 'Valor'
+--PRINT @valorOrdenamiento
 
 
-SELECT apellido,nombre,idPais,observacion FROM Paciente WHERE idPaciente = @idPaciente;
+SELECT apellido,nombre,idPais,observacion,
+	(SELECT pais FROM Pais Ps WHERE Ps.idPais = Pa.idPais) AS descPais
+FROM Paciente Pa WHERE idPaciente = @idPaciente;
+
+--SELECT * FROM Pais
+--SELECT * FROM Paciente
 
 
 
