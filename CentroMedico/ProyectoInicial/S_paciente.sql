@@ -11,7 +11,24 @@ ALTER PROCEDURE [dbo].[S_paciente] (
 )
 AS
 
+--Declarar variable (Objeto en memoria que existe durante el script)
+DECLARE @ordenamiento CHAR(1); --NULL
+DECLARE @valorOrdenamiento CHAR(1); --NULL
+
+--ISNULL permite cambiar el valor de una variable en caso de que sea NULA
+SET @valorOrdenamiento = ISNULL(@ordenamiento,'A');
+
+PRINT 'Valor'
+PRINT @valorOrdenamiento
+
+
+
+
 SELECT apellido,nombre,idPais,observacion FROM Paciente WHERE idPaciente = @idPaciente;
+
+
+
+
 
 --Esto devolveria valores si el campo telefono es NULL, pero no los demas
 --SET ANSI_NULLS OFF
