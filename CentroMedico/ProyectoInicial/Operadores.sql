@@ -35,5 +35,5 @@ PRINT @textResult
 DECLARE @n1 DECIMAL(9,2) = 20
 DECLARE @n2 DECIMAL(9,2) = 10
 
-IF (@n1 >= @n2)
+IF (@n1 <> @n2)
 	PRINT 'Si'
