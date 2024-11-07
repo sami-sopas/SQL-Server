@@ -34,11 +34,35 @@
           <AssociatedConnUserName />
           <FullPath>EstructurasControl.sql</FullPath>
         </FileNode>
+        <FileNode Name="Operadores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Operadores.sql</FullPath>
+        </FileNode>
         <FileNode Name="S_paciente.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>S_paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_InsertMedico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_InsertMedico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_InsertPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_InsertPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_InsertTurno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SP_InsertTurno.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -15,3 +15,9 @@ SELECT * FROM Paciente WHERE apellido LIKE '%rez%';
 --Ejecutar stored procedure
 -- EXEC (nombre SP) (Parametros)
 EXEC S_paciente 2
+
+
+--Ver informacion de tablas o SP's
+sp_help Paciente
+
+sp_helptext ALTA_Medico
