@@ -28,6 +28,12 @@
           <AssociatedConnUserName />
           <FullPath>Comandos.sql</FullPath>
         </FileNode>
+        <FileNode Name="Convertion_text.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Convertion_text.sql</FullPath>
+        </FileNode>
         <FileNode Name="EstructurasControl.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LAPTOP-CEQN378D:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LAPTOP-CEQN378D</AssociatedConnSrvName>
