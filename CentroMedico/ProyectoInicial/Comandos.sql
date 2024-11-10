@@ -21,3 +21,26 @@ EXEC S_paciente 2
 sp_help Paciente
 
 sp_helptext ALTA_Medico
+
+
+--Crear FK con TransacSQL
+ALTER TABLE Paciente
+ADD FOREIGN KEY (idPais)
+REFERENCES Pais(idPais)
+
+
+
+--Crear funcion
+CREATE FUNCTION myFunction(@var INT)
+RETURNS INT --Lo que retornara la function
+
+AS
+
+--Cuerpo de la function
+BEGIN
+	SET @var = @var * 5
+	RETURN @var
+END
+
+--LLamar a la funcion
+SELECT dbo.myFunction (5)
